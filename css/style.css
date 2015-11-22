@@ -1,0 +1,211 @@
+
+.padded{
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 70px;
+  	margin-bottom: 70px;
+  	padding: 0 20px;
+}
+@media (min-width: 400px) {
+	.padded{
+		width: 85%;
+		max-width: 960px;
+		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 70px;
+  		margin-bottom: 70px;
+	}
+}
+@media (min-width: 550px) {
+	.padded{
+		width: 80%;
+		max-width: 960px;
+		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 70px;
+  		margin-bottom: 70px;
+	}
+}
+
+/* ---------Top--------- */
+
+video {
+	position:absolute;
+	z-index:-999;
+}
+video.fillWidth {
+	height: 100%;
+}
+@media (min-width: 550px) {
+	video.fillWidth {
+		width: 100%;
+		height: initial;
+	}
+}
+.video {
+	max-height: 55%;
+	position: relative;
+	padding: 20px;
+}
+#videoContainer {
+	position: absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+
+#videoHeader{
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+}
+@media (min-width: 550px) {
+	#videoHeader{
+		font-size: 10rem;
+		width: 100%;
+		text-align: center;
+		margin-top: 13%;
+	}
+}
+#videoCTA{
+	width: 100%;
+	text-align: center;
+}
+
+#form1{
+	
+	text-align: center;
+	margin-bottom: 13%;
+	position: inherit;
+}
+#confirm1{
+	padding-top: 1px;
+	background-color: rgba(93, 173, 0, 1);
+    color: white;
+    position: inherit;
+}
+#form1Confirm{
+	text-align: center;
+	background: linear-gradient(to right, transparent, white, white, transparent);
+	color: rgba(93, 173, 0, 1);
+	display: none;
+	margin-bottom: 13%;
+}
+
+/* ----------Divider Down---------- */
+
+#divider1Down{
+	width: 100%;
+	text-align: center;
+	font-size: 10rem;
+	margin-top: -70px;
+}
+/*
+#divider1{
+	display: none;
+}
+@media (min-width: 550px) {
+	#divider1{
+		display: block;
+	}
+}
+*/
+
+/* ----------Section 2---------- */
+
+#section2{
+	padding-left: auto;
+  	padding-right: auto;
+  	padding-top: 70px;
+  	padding-bottom: 70px;
+
+  	/*
+	background: url("../images/section2c.jpg")no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+}
+
+#section2aTitle{
+	margin-bottom: 30px;
+}
+
+#section2b{
+	padding-top: 10px;
+}
+@media (min-width: 550px) {
+	#section2b{
+		padding-top: 80px;
+	}
+}
+
+/* -----------Section 3/4----------- */
+
+/* Arrows */
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url(../images/a22.png) center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+/* Bullets */
+.jssorb17 {
+    position: absolute;
+}
+.jssorb17 div, .jssorb17 div:hover, .jssorb17 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url(../images/b14.png) center center no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb17 div { background-position: -7px -7px; }
+.jssorb17 div:hover, .jssorb17 .av:hover { background-position: -37px -7px; }
+.jssorb17 .av { background-position: -67px -7px; }
+.jssorb17 .dn, .jssorb17 .dn:hover { background-position: -97px -7px; }
+
+/* -------------Section 5-------------- */
+#section5{
+	background-color: #ddd;
+}
+#finalCTA{
+	padding-top: 10%;
+	width: 100%;
+	text-align: center;
+}
+#form2{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 13%;
+	position: inherit;
+}
+#confirm2{
+	padding-top: 1px;
+	background-color: rgba(93, 173, 0, 1);
+    color: white;
+    position: inherit;
+}
+#form2Confirm{
+	display: none;
+	text-align: center;
+	background: linear-gradient(to right, transparent, white, white, transparent);
+	color: rgba(93, 173, 0, 1);
+	margin-bottom: 13%;
+}
